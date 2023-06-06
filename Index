@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="overlay">
+        <form autocomplete="off" onsubmit="OnSubmit()" name="FInput">
+           <!--   con = Container  for items in the form-->
+           <div class="con">
+           <!--     Start  header Content  -->
+           <header class="head-form">
+              <h2>Input Stok Periferal</h2>
+              <h2>Toko Komputer Genz</h2>
+           </header>
+           <!--     End  header Content  -->
+           <br>
+           <div class="field-set">
+              <input class="form-input" type="text" placeholder="kode_barang" id="kode_barang" required>
+              <br>
+              <input class="form-input" type="text" placeholder="nama_barang" id="nama_barang" required>
+              <br>
+              <input class="form-input" type="text" placeholder="jumlah" id="jumlah" required>
+              <br>
+              <input class="form-input" type="text" placeholder="harga" id="harga" required>
+              <br>
+        <!--        buttons -->
+        <!--      button LogIn -->
+              <button class="log-in"> Save </button>
+              <button class="log-in"> Delete </button>
+           </div>
+ 
+          
+          <!-- End Form -->
+        </form>
+        </div>
+    <table id="table2">
+        <tr>
+            <th>Kode Barang</th>
+            <th>Nama Barang</th>
+            <th>Jumlah</th>
+            <th>Harga</th>
+            <th>Total</th>
+            <th>Diskon</th>
+            <th>Bayar</th>
+            <th>Action</th>
+        </tr>
+    </table>
+</body>
+</html>
